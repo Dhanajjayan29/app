@@ -12,7 +12,7 @@ const ibmPlexSerif=IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Horizon",
+  title: "NEW_APP",
   description: "It's modern netBanKing App",
   icons: {icon: "/icons/logo.svg"}
 };

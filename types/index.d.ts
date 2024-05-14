@@ -49,6 +49,8 @@ declare type NewUserParams = {
 };
 
 declare type Account = {
+  value: any;
+  label: any;
   id: string;
   availableBalance: number;
   currentBalance: number;
@@ -218,7 +220,7 @@ declare interface RightSidebarProps {
   banks: Bank[] & Account[];
 }
 
-declare interface SiderbarProps {
+declare interface SidebarProps {
   user: User;
 }
 
